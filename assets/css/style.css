@@ -1,0 +1,27 @@
+body{
+    background-image: url("../images/starwars.jpg");
+    background-size: cover;
+}
+
+.character {
+    text-align: center;
+    border: 1px solid green;
+    background-color: beige;
+    height: 180px;
+    width: 150px;
+    float: left;
+    margin: 10px;
+}
+
+.character img {
+    width: 100px;
+    height: 100px;
+}
+
+.enemies .character {
+    background-color: red;
+}
+
+.fight .character {
+    background-color: red;
+}
